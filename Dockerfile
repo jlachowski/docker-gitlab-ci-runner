@@ -10,5 +10,6 @@ RUN apt-get update && \
                         libgdk-pixbuf2.0-dev \
 			libgdbm-dev libreadline-dev libncurses5-dev libffi-dev \
 			libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev \
-			fontconfig libgeoip-dev && \
+			fontconfig libgeoip-dev \
+			python-numpy python-scipy && \
 		apt-get clean
